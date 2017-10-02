@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Project for Postman tests",
   "scripts": {
-    "api-tests-production": "newman run jsonplaceholder.com.postman_collection.json --reporters --reporter-junit-export newman.xml"
+    "api-tests-production": "newman run jsonplaceholder.com.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "Andrzej Nowicki",
   "dependencies": {
