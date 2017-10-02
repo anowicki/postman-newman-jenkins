@@ -60,7 +60,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"tests[\"Status code is 200\"] = responseCode.code === 200;",
-							"tests[\"Response time is less than 800ms\"] = responseTime < 800;",
+							"tests[\"Response time is less than 600ms\"] = responseTime < 600;",
 							""
 						]
 					}
